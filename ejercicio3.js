@@ -24,7 +24,7 @@ agregarButton.addEventListener("click", () => {
     let materialNombre = document.getElementById("materialNombre").value;
     let centroNombre = document.getElementById("Centronombre").value;
 
-    if (materialNombre.trim() !== "" && centroNombre.trim() !== "") {
+    if (materialNombre !== "" && centroNombre !== "") {
        
         MaterialReciclaje = new MaterialReciclaje(materialNombre, centroNombre);
 
